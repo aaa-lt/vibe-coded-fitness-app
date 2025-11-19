@@ -53,22 +53,22 @@ const Footer: React.FC = () => {
             <ul className="space-y-4 text-gray-400">
               <li className="flex items-start gap-3">
                 <MapPin size={20} className="text-brand-lime shrink-0" />
-                <span>Санкт-Петербург, <br />Невский проспект, 1</span>
+                <span>Барановичи, <br />пер. Студенческий, 1</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={20} className="text-brand-lime shrink-0" />
-                <span>+7 (812) 999-00-00</span>
+                <span>+375 (29) 333-33-33</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={20} className="text-brand-lime shrink-0" />
-                <span>hello@fita-plus.ru</span>
+                <span>hello@fita-plus.by</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>© 2024 FitA+ Fitness. Все права защищены.</p>
+          <p>© 2025 FitA+ Fitness. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white">Политика конфиденциальности</a>
             <a href="#" className="hover:text-white">Договор оферты</a>
