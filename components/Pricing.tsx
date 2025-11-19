@@ -5,21 +5,21 @@ import { PricingPlan } from '../types';
 const plans: PricingPlan[] = [
   {
     name: 'Старт',
-    price: '2500 BYN',
+    price: '2500\u00A0BYN',
     period: '/мес',
     features: ['Доступ 7:00 - 23:00', 'Тренажерный зал', 'Вводная тренировка', 'Шкафчик в раздевалке'],
     isPopular: false
   },
   {
     name: 'Безлимит',
-    price: '4500 BYN',
+    price: '4500\u00A0BYN',
     period: '/мес',
     features: ['Круглосуточный доступ', 'Все зоны клуба', 'Групповые занятия', 'Полотенце', 'Заморозка 14 дней'],
     isPopular: true
   },
   {
     name: 'FitA+ PRO',
-    price: '35000 BYN',
+    price: '35000\u00A0BYN',
     period: '/год',
     features: ['Все привилегии Безлимита', 'Персональный тренер (5 зан.)', 'AI План питания и тренировок', 'SPA зона', 'Гостевые визиты (5 шт)'],
     isPopular: false
