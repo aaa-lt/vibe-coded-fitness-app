@@ -32,7 +32,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenAi }) => {
               <span className="bg-brand-lime text-brand-black px-3 py-1 text-xs font-bold uppercase tracking-wider rounded">
                 #1 Фитнес Клуб
               </span>
-              <span className="text-gray-300 text-sm uppercase tracking-widest">Санкт-Петербург</span>
+              <span className="text-gray-300 text-sm uppercase tracking-widest">Барановичи</span>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
@@ -67,9 +67,6 @@ const Hero: React.FC<HeroProps> = ({ onOpenAi }) => {
           </motion.div>
         </div>
       </div>
-      
-      {/* Decorative geometric element */}
-      <div className="absolute bottom-0 right-0 w-1/3 h-1/3 border-t border-l border-brand-lime/20 opacity-50 hidden md:block"></div>
     </section>
   );
 };
