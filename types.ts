@@ -26,3 +26,19 @@ export interface PricingPlan {
   features: string[];
   isPopular?: boolean;
 }
+
+export interface User {
+  id: string;
+  name: string;
+  email: string;
+  avatar?: string;
+  subscriptionStatus: 'Active' | 'Expired' | 'None';
+  planName: string;
+  workoutsLeft: number;
+  subscriptionEnds: string; // ISO Date string
+}
+
+export interface AuthState {
+  isAuthenticated: boolean;
+  user: User | null;
+}
