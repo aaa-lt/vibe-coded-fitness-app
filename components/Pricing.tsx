@@ -4,24 +4,24 @@ import { PricingPlan } from '../types';
 
 const plans: PricingPlan[] = [
   {
-    name: 'Старт',
-    price: '2500\u00A0BYN',
+    name: 'Дневной Абонемент',
+    price: 'от 150\u00A0BYN',
     period: '/мес',
-    features: ['Доступ 7:00 - 23:00', 'Тренажерный зал', 'Вводная тренировка', 'Шкафчик в раздевалке'],
+    features: ['Посещения в будние дни до 17:00', 'Доступ ко всем зонам зала', 'Кардио и силовые тренажеры', 'На 1, 3, 6 или 12 месяцев'],
     isPopular: false
   },
   {
-    name: 'Безлимит',
-    price: '4500\u00A0BYN',
+    name: 'Безлимитный Абонемент',
+    price: 'от 200\u00A0BYN',
     period: '/мес',
-    features: ['Круглосуточный доступ', 'Все зоны клуба', 'Групповые занятия', 'Полотенце', 'Заморозка 14 дней'],
+    features: ['Доступ ко всем зонам зала', 'В любое время работы зала', 'Кардио и силовая зоны', 'На 1, 3, 6 или 12 месяцев'],
     isPopular: true
   },
   {
-    name: 'FitA+ PRO',
-    price: '35000\u00A0BYN',
-    period: '/год',
-    features: ['Все привилегии Безлимита', 'Персональный тренер (5 зан.)', 'AI План питания и тренировок', 'SPA зона', 'Гостевые визиты (5 шт)'],
+    name: 'Разовые Посещения',
+    price: 'от 8\u00A0BYN',
+    period: '/раз',
+    features: ['Разовое посещение', 'Пакеты из 4 или 8 посещений', 'Гибкий график', 'Идеально для начала'],
     isPopular: false
   }
 ];
@@ -32,10 +32,10 @@ const Pricing: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-wide mb-4">
-            Клубные <span className="text-brand-lime">Карты</span>
+            Абонементы и <span className="text-brand-lime">Цены</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Инвестируйте в себя. Выберите план, который подходит вашим амбициям.
+            Выберите удобный для вас вариант: безлимитный абонемент, дневной абонемент или разовые посещения. Также доступны льготные абонементы для студентов и семейные абонементы для пар.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ const Pricing: React.FC = () => {
                   ? 'bg-brand-lime text-brand-black hover:bg-brand-limeHover' 
                   : 'bg-white/10 text-white hover:bg-white/20'
               }`}>
-                Выбрать карту
+                Выбрать абонемент
               </button>
             </div>
           ))}

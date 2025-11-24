@@ -73,7 +73,7 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenAi, user, onOpenAuth, onOpenDashb
             className="flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-4 py-2 rounded-full text-sm font-bold transition-all"
           >
             <Zap size={16} className="text-brand-lime" />
-            AI Тренер
+            Персональные Тренировки
           </button>
 
           {user ? (
@@ -140,7 +140,7 @@ const Navbar: React.FC<NavbarProps> = ({ onOpenAi, user, onOpenAuth, onOpenDashb
                 }}
                 className="flex items-center gap-2 text-brand-lime font-bold py-2"
               >
-                <Zap size={18} /> AI Тренер
+                <Zap size={18} /> Персональные Тренировки
               </button>
               
               <div className="border-t border-white/10 my-2"></div>

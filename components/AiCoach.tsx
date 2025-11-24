@@ -138,7 +138,7 @@ const AiCoach: React.FC<AiCoachProps> = ({ isOpen, onClose }) => {
               <div className="w-20 h-20 bg-brand-black rounded-full flex items-center justify-center mb-4">
                 <Sparkles size={40} className="text-brand-lime opacity-50" />
               </div>
-              <p>Выберите параметры слева и нажмите "Составить план", <br/>чтобы получить персональную программу от AI.</p>
+              <p>Выберите параметры слева и нажмите "Составить план", <br/>чтобы получить персональную программу тренировок.</p>
             </div>
           )}
         </div>
