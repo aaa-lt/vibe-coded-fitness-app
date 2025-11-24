@@ -19,8 +19,8 @@ const Footer: React.FC = () => {
                 </span>
             </a>
             <p className="text-gray-400 max-w-sm leading-relaxed mb-6">
-              Премиальный фитнес-клуб для тех, кто ценит качество, технологии и результат. 
-              Присоединяйтесь к сообществу сильных людей.
+              Современный, доступный и комфортный тренажерный зал для жителей Барановичей, 
+              ведущих активный образ жизни и заботящихся о своем здоровье.
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-brand-grey flex items-center justify-center text-white hover:bg-brand-lime hover:text-brand-black transition-colors">
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>© 2025 FitA+ Fitness. Все права защищены.</p>
+          <p>© 2025 Тренажерный зал. Все права защищены.</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white">Политика конфиденциальности</a>
             <a href="#" className="hover:text-white">Договор оферты</a>

@@ -12,7 +12,7 @@ const trainers: Trainer[] = [
     id: 2,
     name: 'Мария Иванова',
     specialty: 'Кроссфит & Функционал',
-    imageUrl: 'https://images.unsplash.com/photo-1611672585731-fa1060a7a3c2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+    imageUrl: 'https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
   },
   {
     id: 3,
@@ -35,13 +35,10 @@ const Trainers: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div>
              <h2 className="text-3xl md:text-4xl font-black text-white uppercase tracking-wide mb-2">
-              Наша <span className="text-brand-lime">Команда</span>
+              Наши <span className="text-brand-lime">Тренеры</span>
             </h2>
-            <p className="text-gray-400">Профессионалы, готовые вести вас к цели.</p>
+            <p className="text-gray-400">Профессиональные тренеры для персональных тренировок.</p>
           </div>
-          <a href="#" className="text-brand-lime hover:text-white underline underline-offset-4 transition-colors mt-4 md:mt-0">
-            Смотреть всех тренеров
-          </a>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

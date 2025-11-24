@@ -30,22 +30,22 @@ const Hero: React.FC<HeroProps> = ({ onOpenAi }) => {
           >
             <div className="flex items-center gap-2 mb-4">
               <span className="bg-brand-lime text-brand-black px-3 py-1 text-xs font-bold uppercase tracking-wider rounded">
-                #1 Фитнес Клуб
+                Современный Тренажерный Зал
               </span>
               <span className="text-gray-300 text-sm uppercase tracking-widest">Барановичи</span>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
-              ТВОЕ ТЕЛО <br />
+              ДОСТУПНОЕ <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-lime to-white">
-                ТВОЕ ОРУЖИЕ
+                КОМФОРТНОЕ ПРОСТРАНСТВО
               </span>
             </h1>
 
             <p className="text-gray-300 text-lg md:text-xl mb-10 leading-relaxed max-w-2xl border-l-4 border-brand-lime pl-6">
-              FitA+ — это не просто зал. Это лаборатория твоей силы. 
-              Передовое оборудование, профессиональные тренеры и 
-              искусственный интеллект для достижения твоих целей.
+              Современный, доступный и технически оснащенный тренажерный зал для жителей Барановичей. 
+              Каждый клиент, независимо от уровня подготовки, сможет комфортно и эффективно 
+              работать над своим телом и здоровьем в дружелюбной и поддерживающей обстановке.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -61,7 +61,7 @@ const Hero: React.FC<HeroProps> = ({ onOpenAi }) => {
                 className="flex items-center justify-center gap-3 border border-brand-lime text-brand-lime px-8 py-4 rounded font-bold hover:bg-brand-lime hover:text-brand-black transition-all"
               >
                 <Activity />
-                Попробовать AI Тренера
+                Персональные Тренировки
               </button>
             </div>
           </motion.div>
